@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .logo {
+        display: flex;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        padding-right: 90px; 
+        color: cornflowerblue;
+        
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 20px;
+        
+    
+    }
+    .navbar {
+        display: flex;
+        justify-content: center ;
+        padding: 0 20px;
+        padding-left: 150px;
+        text-align: center;
+    }
+    li{
+        padding: 0 10px;
+    }
+    a{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+    input{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        padding-right: 200px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border-color: black;
+    }
+    .navbar i{
+        font-weight: bolder;
+        color:cornflowerblue;
+        cursor: pointer;
+    }
+    .btn {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: solid black 2px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background:rgb(46, 43, 43) ;
+        color: white;
+        transition: 0.2s ease;
+    }
+    .stn {
+        cursor: pointer;
+        margin-bottom: 10px;
+        border: 0;
+        padding: 10px 20px;
+        background-color: rgb(46, 43, 43);
+        font-weight: 600;
+        color: azure;
+        border-radius: 5px;
+    }
+    
+    .body{
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+        background-image: url("UDEMY\ IMAGE.jpg");
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+    }
+    p{
+      
+      padding-left: 90px;
+      margin-top: 300px;
+      font-weight: bolder;
+    }
+    h1{
+        margin-top: 230px;
+        padding-left: 90px;
+        float: left;
+    }
+    
+    .start{
+        position: absolute; 
+        margin-top: 380px;
+        padding-left: 90px;
+    }
+    
+    .start .Get{
+        padding: 10px 70px;
+        background-color: rgb(46, 43, 43);
+        color: whitesmoke;
+        border: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    
